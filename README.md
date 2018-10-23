@@ -12,7 +12,8 @@ size(precip_clim);
 
 % Have a look of a time series
 see=squeeze(precip_clim(48,29,:));
-plot(1:366,see,'linewidth',2);`
+plot(1:366,see,'linewidth',2);
+`
 
 
 
