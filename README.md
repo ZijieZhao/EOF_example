@@ -6,13 +6,15 @@ Traditionally, EOF is mostly used to determine the dominant modes of variables a
 
 Let's see an example. Consider a dataset containing annual climatology of precipitation during 1979 to 2017 over Central America and Mexico.
 
-`%% Load the data
+```
+%% Load the data
 load('eof_example');
 size(precip_clim);
 
 % Have a look of a time series
 see=squeeze(precip_clim(48,29,:));
 plot(1:366,see,'linewidth',2);
+```
 `
 
 
